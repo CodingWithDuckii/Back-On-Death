@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "backondeath",
+  "version": "${version}",
+  "name": "Back On Death",
+  "description": "Adds a /back command to return to your last death location once.",
+  "authors": [
+    "itsdu"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/backondeath/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.itsdu.backondeath.BackOnDeath"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
